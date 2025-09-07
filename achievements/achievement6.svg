@@ -1,0 +1,67 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad6" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#FF9B5A;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF792D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8D4E2E;stop-opacity:1" />
+    </radialGradient>
+    <filter id="shadow6" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buttonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stopwatch shadow -->
+  <circle cx="52" cy="52" r="35" fill="#000000" fill-opacity="0.2"/>
+
+  <!-- Stopwatch body -->
+  <circle cx="50" cy="50" r="35" fill="url(#grad6)" stroke="#676000" stroke-width="3" filter="url(#shadow6)"/>
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#8D4E2E" stroke-width="1"/>
+
+  <!-- Minute markings -->
+  <line x1="50" y1="20" x2="50" y2="25" stroke="#676000" stroke-width="2"/>
+  <line x1="75" y1="50" x2="70" y2="50" stroke="#676000" stroke-width="2"/>
+  <line x1="50" y1="80" x2="50" y2="75" stroke="#676000" stroke-width="2"/>
+  <line x1="25" y1="50" x2="30" y2="50" stroke="#676000" stroke-width="2"/>
+  <line x1="65" y1="30" x2="62" y2="33" stroke="#676000" stroke-width="1"/>
+  <line x1="70" y1="40" x2="67" y2="42" stroke="#676000" stroke-width="1"/>
+  <line x1="65" y1="70" x2="62" y2="67" stroke="#676000" stroke-width="1"/>
+  <line x1="70" y1="60" x2="67" y2="58" stroke="#676000" stroke-width="1"/>
+  <line x1="35" y1="30" x2="38" y2="33" stroke="#676000" stroke-width="1"/>
+  <line x1="30" y1="40" x2="33" y2="42" stroke="#676000" stroke-width="1"/>
+  <line x1="35" y1="70" x2="38" y2="67" stroke="#676000" stroke-width="1"/>
+  <line x1="30" y1="60" x2="33" y2="58" stroke="#676000" stroke-width="1"/>
+
+  <!-- Center dot -->
+  <circle cx="50" cy="50" r="2" fill="url(#metalGrad)"/>
+
+  <!-- Hour hand -->
+  <line x1="50" y1="50" x2="50" y2="30" stroke="#676000" stroke-width="3" stroke-linecap="round"/>
+  <!-- Minute hand -->
+  <line x1="50" y1="50" x2="65" y2="50" stroke="#676000" stroke-width="2" stroke-linecap="round"/>
+  <!-- Second hand -->
+  <line x1="50" y1="50" x2="50" y2="25" stroke="#FF0000" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="50" cy="25" r="1" fill="#FF0000"/>
+
+  <!-- Buttons -->
+  <circle cx="35" cy="70" r="5" fill="url(#buttonGrad)" stroke="#676000" stroke-width="1"/>
+  <circle cx="50" cy="75" r="5" fill="url(#buttonGrad)" stroke="#676000" stroke-width="1"/>
+  <circle cx="65" cy="70" r="5" fill="url(#buttonGrad)" stroke="#676000" stroke-width="1"/>
+  <circle cx="35" cy="70" r="2" fill="#676000"/>
+  <circle cx="50" cy="75" r="2" fill="#676000"/>
+  <circle cx="65" cy="70" r="2" fill="#676000"/>
+
+  <!-- Speed lines -->
+  <line x1="85" y1="50" x2="95" y2="50" stroke="#676000" stroke-width="2"/>
+  <line x1="90" y1="45" x2="95" y2="45" stroke="#676000" stroke-width="2"/>
+  <line x1="90" y1="55" x2="95" y2="55" stroke="#676000" stroke-width="2"/>
+  <line x1="87" y1="47" x2="93" y2="47" stroke="#676000" stroke-width="1"/>
+  <line x1="87" y1="53" x2="93" y2="53" stroke="#676000" stroke-width="1"/>
+</svg>

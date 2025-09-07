@@ -1,0 +1,41 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad4" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" style="stop-color:#FF9B5A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF792D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8D4E2E;stop-opacity:1" />
+    </radialGradient>
+    <filter id="shadow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0A0A0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield shadow -->
+  <path d="M30,20 L70,20 L80,40 L80,70 L70,90 L30,90 L20,70 L20,40 Z" fill="#000000" fill-opacity="0.2" transform="translate(2,2)"/>
+
+  <!-- Shield body -->
+  <path d="M30,20 L70,20 L80,40 L80,70 L70,90 L30,90 L20,70 L20,40 Z" fill="url(#grad4)" stroke="#676000" stroke-width="3" filter="url(#shadow4)"/>
+
+  <!-- Shield border -->
+  <path d="M30,20 L70,20 L80,40 L80,70 L70,90 L30,90 L20,70 L20,40 Z" fill="none" stroke="#8D4E2E" stroke-width="1"/>
+
+  <!-- Emblem background -->
+  <circle cx="50" cy="50" r="18" fill="url(#metalGrad)" stroke="#676000" stroke-width="2"/>
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#FF792D" stroke-width="1"/>
+
+  <!-- Star emblem -->
+  <polygon points="50,35 53,43 61,43 55,48 57,56 50,52 43,56 45,48 39,43 47,43" fill="#FF792D" stroke="#8D4E2E" stroke-width="1"/>
+
+  <!-- Rivets -->
+  <circle cx="35" cy="30" r="2" fill="#676000"/>
+  <circle cx="65" cy="30" r="2" fill="#676000"/>
+  <circle cx="35" cy="80" r="2" fill="#676000"/>
+  <circle cx="65" cy="80" r="2" fill="#676000"/>
+  <circle cx="50" cy="25" r="2" fill="#676000"/>
+  <circle cx="50" cy="85" r="2" fill="#676000"/>
+</svg>
